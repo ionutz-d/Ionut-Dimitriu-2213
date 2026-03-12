@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pisici Wow - Lumea Fascinantă a Pisicilor</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Fundal cu pisici animate -->
+    <div class="background-cats">
+        <div class="cat-walk">🐱</div>
+        <div class="cat-walk">😺</div>
+        <div class="cat-walk">😸</div>
+    </div>
+
+    <header>
+        <h1 class="glow">🐾 Lumea Pisicilor 🐾</h1>
+        <p class="subtitle">Cel mai tare site despre pisici de pe internet!</p>
+    </header>
+
+    <!-- Buton cu efect -->
+    <div class="button-container">
+        <button class="magic-button" onclick="showSurprise()">Click pentru surpriză 🎁</button>
+    </div>
+
+    <!-- Mesaj surpriză -->
+    <div id="surprise-message" class="surprise hidden">
+        <h2>🐱 Ești super! 🐱</h2>
+        <p>Pisicile dominaă lumea! 😺</p>
+    </div>
+
+    <!-- Secțiune principală cu carduri interactive -->
+    <main>
+        <section class="gallery">
+            <h2 class="section-title">⭐ Pisici Celebre ⭐</h2>
+            <div class="card-container">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://cataas.com/cat?width=300&height=300" alt="Pisica 1">
+                        <div class="overlay">
+                            <span>😻</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Pisi 1</h3>
+                        <p>Cea mai drăgălașă pisicuță</p>
+                        <a href="https://cataas.com/cat" target="_blank" class="cat-link">Vezi mai multe</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://cataas.com/cat?width=300&height=300&random=1" alt="Pisica 2">
+                        <div class="overlay">
+                            <span>😺</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Pisi 2</h3>
+                        <p>Pisica aventurieră</p>
+                        <a href="https://cataas.com/cat/gif" target="_blank" class="cat-link">GIF-uri cu pisici</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://cataas.com/cat?width=300&height=300&random=2" alt="Pisica 3">
+                        <div class="overlay">
+                            <span>😸</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Pisi 3</h3>
+                        <p>Pisica filozofă</p>
+                        <a href="https://cataas.com/cat/says/hello" target="_blank" class="cat-link">Pisici cu text</a>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://cataas.com/cat?width=300&height=300&random=3" alt="Pisica 4">
+                        <div class="overlay">
+                            <span>😹</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Pisi 4</h3>
+                        <p>Pisica haioasă</p>
+                        <a href="https://cataas.com/cat?filter=mono" target="_blank" class="cat-link">Filtre pisici</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secțiune Meme-uri -->
+        <section class="memes-section">
+            <h2 class="section-title">🔥 Meme-uri cu Pisici 🔥</h2>
+            <div class="memes-container">
+                <div class="meme-card">
+                    <img src="https://cataas.com/cat?width=400&height=400&random=4" alt="Meme 1">
+                    <div class="meme-text">
+                        <p>When human says "no more treats"</p>
+                    </div>
+                </div>
+                <div class="meme-card">
+                    <img src="https://cataas.com/cat?width=400&height=400&random=5" alt="Meme 2">
+                    <div class="meme-text">
+                        <p>Monday morning vibes</p>
+                    </div>
+                </div>
+                <div class="meme-card">
+                    <img src="https://cataas.com/cat?width=400&height=400&random=6" alt="Meme 3">
+                    <div class="meme-text">
+                        <p>When you see a cucumber</p>
+                    </div>
+                </div>
+                <div class="meme-card">
+                    <img src="https://cataas.com/cat?width=400&height=400&random=7" alt="Meme 4">
+                    <div class="meme-text">
+                        <p>After 3 cups of coffee</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Linkuri utile -->
+        <section class="links-section">
+            <h2 class="section-title">🔗 Linkuri Utile 🔗</h2>
+            <div class="links-grid">
+                <a href="https://cataas.com/" target="_blank" class="fancy-link">
+                    <span class="link-icon">😺</span>
+                    <span>API Pisici</span>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Cat" target="_blank" class="fancy-link">
+                    <span class="link-icon">📚</span>
+                    <span>Wikipedia Pisici</span>
+                </a>
+                <a href="https://www.reddit.com/r/cats/" target="_blank" class="fancy-link">
+                    <span class="link-icon">📱</span>
+                    <span>Reddit r/cats</span>
+                </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="fancy-link">
+                    <span class="link-icon">🎵</span>
+                    <span>Pisici cântă</span>
+                </a>
+                <a href="https://cataas.com/cat/gif" target="_blank" class="fancy-link">
+                    <span class="link-icon">🎬</span>
+                    <span>GIF-uri pisici</span>
+                </a>
+                <a href="https://thecatapi.com/" target="_blank" class="fancy-link">
+                    <span class="link-icon">🔮</span>
+                    <span>The Cat API</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer animat -->
+    <footer>
+        <div class="footer-content">
+            <div class="rotating-cat">🐱</div>
+            <p>&copy; 2024 Lumea Pisicilor - Toate drepturile rezervate pisicilor 🐾</p>
+            <div class="rotating-cat">😺</div>
+        </div>
+    </footer>
+
+    <script>
+        // Efect cursor
+        const cursor = document.querySelector('.cursor');
+        const follower = document.querySelector('.cursor-follower');
+
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+            follower.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+        });
+
+        // Funcție surpriză
+        function showSurprise() {
+            const surprise = document.getElementById('surprise-message');
+            surprise.classList.remove('hidden');
+            surprise.classList.add('show');
+            
+            setTimeout(() => {
+                surprise.classList.add('hidden');
+                surprise.classList.remove('show');
+            }, 3000);
+        }
+
+        // Efect hover pe carduri
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'scale(1.05) rotate(2deg)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'scale(1) rotate(0deg)';
+            });
+        });
+
+        // Animație pisici pe fundal
+        const cats = document.querySelectorAll('.cat-walk');
+        cats.forEach((cat, index) => {
+            setInterval(() => {
+                cat.style.transform = `translateX(${Math.random() * 100}vw)`;
+            }, 3000 + index * 1000);
+        });
+    </script>
+</body>
+</html>
